@@ -2,6 +2,7 @@ html, body {
   height: 80%;
   width: 80%;
 }
+
 body{
   background-color: black;
   margin-top: 100px;
@@ -19,6 +20,8 @@ h1{
 
 img{
   border: 1px solid #ffd700;
+  height: auto;
+  max-width: 50%;
 }
 
 ul.nav1{
