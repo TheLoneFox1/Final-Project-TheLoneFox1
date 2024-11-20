@@ -1,14 +1,14 @@
 html, body {
-  height: 80%;
-  width: 80%;
+  height: 90%;
+  width: 90%;
 }
 
 body{
   background-color: gray;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 250px;
-  margin-right: 100px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
   color: gold;
   font-family: "Times New Roman", Times, serif;
 }
@@ -80,6 +80,7 @@ input[type=submit]:hover {
 
 form {
   border-radius: 5px;
+  border-color: gold;
 }
 
 table, th, td {
@@ -88,17 +89,22 @@ table, th, td {
 
 .topnav {
   background-color: gray;
+  float: center;
   overflow: hidden;
 }
 
 .topnav a {
-  float: left;
+  float: center;
   color: gold;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  padding: 5%;
+  outline: 2px;
+  outline-style: solid;
+  outline-color: skyblue;
+  font-size: 2vw;
 }
+
 
 .topnav a:hover {
   background-color: #8000ff;
