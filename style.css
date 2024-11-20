@@ -112,7 +112,7 @@ table, th, td {
 }
 
 .topnav a.active {
-  background-color: gold;
+  background-color: #8000ff;
   color: gray;
 }
 
