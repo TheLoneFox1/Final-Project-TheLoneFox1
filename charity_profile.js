@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-  import('./charity_list.js')
+  import('charity_list.js')
   .then(module => {
     const { isAnimal, isAdopt, isChurch } = module;
   if (isAnimal == true){
