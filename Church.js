@@ -11,8 +11,4 @@ fetch('https://partners.every.org/v0.2/nonprofit/71-0239727?apiKey=pk_live_81997
         document.getElementById('Description').innerHTML = charityDescritpion;
       })
   .catch(error => console.error('Error:', error));
-    const charityImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1XEWA3gGiwVj8nRKmx7rH_E6SumHW_7al_WwCkLx9JSS44k_jipMOqbzDvGDcBbSVFoM&usqp=CAU";
-    const charityMission = "The mission of Trinity Episcopal Cathedral is to proclaim the Word of God by sharing our gifts, ourselves, and our properties through ministry to each other, our neighbors, and our community as we serve God and represent the Episcopal Diocese of Arkansas.";
-    document.getElementById('Mission').innerHTML = charityMission;
-    document.getElementById('Image3').src = charityImage;
-  }
+}
