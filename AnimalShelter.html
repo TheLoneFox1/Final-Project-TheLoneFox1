@@ -1,1 +1,40 @@
+<!DOCTYPE html>
 
+<html lang="en">
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="description" content="HelpHub - Charity Profile"/>
+  <meta name="author" content="James Wayland" />
+</head>
+<center>
+<nav class="topnav">
+  <a href="index.html">Homepage</a>
+  <a href="charities.html">Charity List</a>
+  <a class="active" href="charity_profile.html">Charity Profiles</a>
+</nav>
+  </center>
+
+<body>
+  <script src="AnimalShelter.js"></script>
+  <h1 id="CharityName"> <center>Charity Name</center> </h1>
+<br>
+<article>
+  <h3 id="Location"> <center>Charity Location</center> </h3>
+  <br>
+  <p id="Mission">Charity Mission Statement</p>
+  <img id="Image" src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png">Image of the charity working</img>
+  <br>
+  <p id="Description">Detailed Info about the charity</p>
+</article>
+  <button id="Volunteer">Volunteer Now!</button>
+  <form id="Form" style="display:none;">
+    <label for="name">What is your name?</label><br>
+    <input type="text" id="name" name="name" required><br>
+    <label for="email">What is your email?</label><br>
+    <input type="text" id="email" name="email" required><br>
+    <button type="submit" id="Submit">Submit</button>
+  </form>
+</body>
+</html>
