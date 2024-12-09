@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 fetch('https://partners.every.org/v0.2/nonprofit/71-0239727?apiKey=pk_live_81997ba66ed0a63342343fdc16deede2')
       .then(response => response.json())
       .then(data => {
