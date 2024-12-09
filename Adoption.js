@@ -14,5 +14,5 @@ document.addEventListener('DOMContentLoaded', function() {
     const charityImage = "https://nfpaonline.org/wp-content/uploads/2023/08/NFPA.png";
     const charityMission = "(Did not have one in the API)";
     document.getElementById('Mission').innerHTML = charityMission;
-    document.getElementById('Image').src = charityImage;
+    document.getElementById('Image2').src = charityImage;
 });
